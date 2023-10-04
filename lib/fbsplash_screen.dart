@@ -23,7 +23,7 @@ class fbstate extends State<Facebook>{
   @override
   void initState() {
    Timer(const Duration(seconds: 4), () {
-     Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Newlogin()));
+     Navigator.pushReplacement(context as BuildContext, MaterialPageRoute(builder: (context)=>Newlogin()));
    });
     super.initState();
   }
@@ -36,17 +36,12 @@ child: Center(
   child: Column(
     children: [
       Image(image: AssetImage("assets/fb.png"),height: 100 ,width: 100,),
-
-
     ],
   ),
 
 ),
 
 ),
-
-
-
       ),
     );
 
