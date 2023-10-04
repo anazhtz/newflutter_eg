@@ -20,14 +20,14 @@ class Listseperated extends StatelessWidget{
 body: ListView.separated(itemBuilder: (context, index){
   return Card(color: Colors.white,
     child: ListTile(
-      leading: Icon(Icons.person),
+      leading: const Icon(Icons.person),
       title: Text(name[index]),
       subtitle: Text(phone[index]),
-      trailing: Icon(Icons.alarm),
+      trailing: const Icon(Icons.alarm),
     ),
   );
 }, separatorBuilder: (context, index){
-  return Divider(
+  return const Divider(
     thickness: 5,
     color: Colors.orange,
   );

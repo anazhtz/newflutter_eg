@@ -24,10 +24,10 @@ class Listbuilder extends StatelessWidget {
         return Card(
           child: ListTile(
             //leading: Image(image: AsstetImage(image[intex]),),
-            leading: Icon(Icons.person),
+            leading: const Icon(Icons.person),
             title: Text(name[index]),
             subtitle: Text(phone[index]),
-            trailing: Icon(Icons.call),
+            trailing: const Icon(Icons.call),
           ),
         );
       },itemCount: name.length),

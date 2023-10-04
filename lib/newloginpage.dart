@@ -96,7 +96,7 @@ class loginstate extends State<Newlogin>{
               ),
               SizedBox(height: 30,),
               TextButton(onPressed: (){}, child: Text("Forgotten Password?",style: TextStyle(color: Colors.black),)),
-              SizedBox(height: 150,),
+              SizedBox(height: 130,),
               ElevatedButton(onPressed: (){}, child: Text("Create new account"),style: ElevatedButton.styleFrom(fixedSize: const Size(290, 30), //fixed size box nde leghn cheyyan
                   backgroundColor: Colors.transparent,foregroundColor: Colors.blue.shade900,elevation: 0,
                   side: const BorderSide(width: 1.0,color: Colors.blue)),),

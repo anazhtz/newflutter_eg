@@ -16,7 +16,6 @@ void main(){
 class Myapp extends StatefulWidget{
   @override
   State<StatefulWidget> createState() => MyappState();
-
 }
 
 class MyappState extends State<Myapp> {
@@ -47,8 +46,6 @@ class MyappState extends State<Myapp> {
                   fontSize: 30,color: Colors.red,fontStyle: FontStyle.italic,fontWeight: FontWeight.w700,
                 )
               )
-              
-              
             ],
           )
         )
