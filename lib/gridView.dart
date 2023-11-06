@@ -24,7 +24,8 @@ class Gridvieww extends StatelessWidget {
           return Card(
             child: Column(
               children: [
-                Image(image: AssetImage(image[index]),),
+                Expanded
+                  (child: Image(image: AssetImage(image[index]),)),
                 Row(
                   children: [
                     Text(name[index]),
