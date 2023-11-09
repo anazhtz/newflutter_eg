@@ -26,7 +26,7 @@ class _LunchescartState extends State<Lunchescart> {
      body: TabBarView(                                //body tabbar view
          children: [
 
-           Camerascreen(),
+           //Camerascreen(),
          ],
        ),
      ),

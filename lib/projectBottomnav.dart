@@ -19,7 +19,7 @@ class _ProbottomState extends State<Probottom> {
     Statusscreen(),
     Chatlist(),
     Callscreen(),
-    Camerascreen(),
+  //  Camerascreen(),
   ];
 
   int index=1;

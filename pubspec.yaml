@@ -47,6 +47,14 @@ dependencies:
   flutter_svg: ^2.0.9
   carousel_slider: ^4.2.1
   quickalert: ^1.0.2
+  flutter_swiper_view: ^1.1.8
+  onboarding_screen: ^0.0.3
+  video_player: ^2.8.1
+  rive: ^0.12.3
+  sizer: ^2.0.15
+
+
+
 
 dev_dependencies:
   flutter_test:
@@ -75,6 +83,7 @@ flutter:
     - assets/
     - Animation/
     - SvgImages/
+    - RiveAnimation/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

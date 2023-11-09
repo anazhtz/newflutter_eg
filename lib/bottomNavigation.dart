@@ -19,7 +19,7 @@ class _BottomnavState extends State<Bottomnav> {
     Chatlist(),
     Statusscreen(),
     Callscreen(),
-    Camerascreen(),
+  //  Camerascreen(),
   ];
   int index=1;
   @override

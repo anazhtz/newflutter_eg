@@ -6,6 +6,7 @@ class Camerascreen extends StatelessWidget{
     return const Scaffold(
      body: Center(
        child: Text("CAMERA",style: TextStyle(fontSize: 20),),
+       
 
      ),
 
